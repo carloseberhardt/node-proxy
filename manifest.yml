@@ -1,0 +1,6 @@
+---
+applications:
+- name: node-proxy
+command: node index.js
+env:
+  PROXY_TARGET: mustsetme
